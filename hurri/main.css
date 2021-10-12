@@ -1,0 +1,158 @@
+body{
+    background-color: #030408;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.content{
+    width: 1440px;
+    margin: auto;
+}
+.block{
+    position: relative;
+}
+.block1{
+    background: url('./images/1.jpg') no-repeat 0 0;
+    height: 800px;
+}
+
+
+.block2{
+    background: url('./images/2.jpg') no-repeat 0 0;
+    height: 800px;
+}
+.block3{
+    background: url('./images/3.jpg') no-repeat 0 0;
+    height: 800px;
+}
+.block4{
+    background: url('./images/4.jpg') no-repeat 0 0;
+    height: 1008px;
+}
+.block5{
+    background: url('./images/5.jpg') no-repeat 0 0;
+    height: 800px;
+}
+
+.block6{
+    background: url('./images/en.png') no-repeat 0 0;
+    top: 50px;
+    margin-left: 1300px;
+    height: 30px;
+    width: 111px;
+}
+
+
+.block5 .btn{
+    width: 115px;
+    height: 40px;
+    position: absolute;
+    left: 722px;
+    top: 322px;
+    cursor: pointer;
+    background: #fff;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+    color: #333;
+    border-radius: 5px;
+}
+.block5 .btn:hover{
+    background: #e6e6e6
+}
+.block5 .contactUs{
+    position: absolute;
+    bottom: 100px;
+    width: 100%;
+    text-align: center
+}
+.block5 .contactUs .classIcon{
+    display: inline-block;
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.block5 .contactUs .classIcon:not(:last-child){
+    margin-right: 30px;
+}
+.block5 .contactUs .classIcon.gz{
+    background: url('./images/gz1.png') no-repeat 0 0;
+    background-size: 100%;
+}
+.block5 .contactUs .classIcon.gz:hover{
+    background: url('./images/gz2.png') no-repeat 0 0;
+    background-size: 100%;
+}
+.block5 .contactUs .classIcon.fj{
+    background: url('./images/fj1.png') no-repeat 0 0;
+    background-size: 100%;
+}
+.block5 .contactUs .classIcon.fj:hover{
+    background: url('./images/fj2.png') no-repeat 0 0;
+    background-size: 100%;
+}
+.block5 .contactUs .classIcon.xf{
+    background: url('./images/xf1.png') no-repeat 0 0;
+    background-size: 100%;
+}
+.block5 .contactUs .classIcon.xf:hover{
+    background: url('./images/xf2.png') no-repeat 0 0;
+    background-size: 100%;
+}
+.block3 .lists{
+    position: absolute;
+    top: 340px;
+    left: 100px;
+    margin: auto;
+}
+.block3 .lists .list:not(:last-child){
+    margin-right: 32px;
+    
+}
+.block3 .lists .list{
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+    color: #fff;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+}
+.block3 .lists .list img{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: .35s all;
+}
+
+.block3 .lists .list:hover img{
+    border-radius: 10px;
+    width: 440px;
+    height: 440px;
+    top: -20px;
+    left: -20px;
+}
+.block2 .time{
+    color: #fff;
+    position: absolute;
+    top: 290px;
+    left: 390px;
+}
+.block2 .time strong{
+    font-size: 100px
+}
+.block2 .time span{
+    display: block;
+    color: #aaa;
+    font-size: 14px;
+    text-align: center;
+    padding-left: 10px
+}
+.block2 .time span em{
+    font-style: normal;
+    margin-right: 120px
+}
